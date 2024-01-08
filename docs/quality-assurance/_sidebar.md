@@ -1,3 +1,3 @@
 * [Home](/)
 * [Garantia de Qualidade](quality-assurance/README.md)
-* * [C#](quality-assurance/csharp.md)
+* * [Revisão de Código C#](quality-assurance/code-review/README.md)
