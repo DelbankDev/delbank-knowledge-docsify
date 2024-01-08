@@ -1,0 +1,30 @@
+version: 0.2
+
+env:
+  variables:
+    APP_ENV: production
+    IMAGE_ECR: "286358998086.dkr.ecr.us-east-1.amazonaws.com/delbank-knowledge-docsify:latest"
+
+phases:
+  pre_build:
+    commands:
+      - $(aws ecr get-login --no-include-email --region us-east-1)
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - |
+      - APP_VERSION="prd-${COMMIT_HASH}-${CODEBUILD_BUILD_NUMBER}"
+  build:
+    commands:
+      - echo Docker build -t $IMAGE_ECR
+      - echo New app version $APP_VERSION
+      - echo New commit hash $COMMIT_HASH
+      - echo ID $CODEBUILD_RESOLVED_SOURCE_VERSION
+      - docker build -t $IMAGE_ECR .
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker image...
+      - docker push $IMAGE_ECR
+      - echo Writing image definitions file...
+      - printf '[{"name":"delbank-knowledge-docsify","imageUri":"%s"}]' $IMAGE_ECR > imagedefinitions.json
+artifacts:
+  files: imagedefinitions.json
