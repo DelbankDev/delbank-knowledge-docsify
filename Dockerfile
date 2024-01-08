@@ -4,4 +4,4 @@ WORKDIR /app
 COPY . /app/
 RUN npm install -g docsify-cli@latest
 EXPOSE 3000/tcp
-ENTRYPOINT docsify serve ./app/docs
+ENTRYPOINT docsify serve ./docs
