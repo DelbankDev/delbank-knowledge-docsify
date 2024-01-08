@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:12
 #LABEL description="A demo Dockerfile for build Docsify."
 WORKDIR /app
 COPY . /app/
