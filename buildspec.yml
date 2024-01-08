@@ -4,13 +4,16 @@ env:
   variables:
     APP_ENV: production
     IMAGE_ECR: "286358998086.dkr.ecr.us-east-1.amazonaws.com/delbank-knowledge-docsify:latest"
+    AWS_ACCOUNT_ID: 286358998086
 
 phases:
   pre_build:
     commands:
-      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
-      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - |
+        aws ecr get-login-password --region $AWS_DEFAULT_REGION 
+          | docker login --username AWS --password-stdin 
+          $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - APP_VERSION="prd-${COMMIT_HASH}-${CODEBUILD_BUILD_NUMBER}"
   build:
     commands:
