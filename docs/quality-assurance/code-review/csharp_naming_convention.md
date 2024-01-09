@@ -2,18 +2,18 @@
 
 | Object Name               | Notation   | Length | Plural | Prefix | Suffix | Abbreviation | Char Mask          | Underscores |
 |:--------------------------|:-----------|-------:|:-------|:-------|:-------|:-------------|:-------------------|:------------|
-| Namespace name            | PascalCase |    128 | Yes    | Yes    | No     | No           | [A-z][0-9]         | No          |
-| Class name                | PascalCase |    128 | No     | No     | Yes    | No           | [A-z][0-9]         | No          |
-| Constructor name          | PascalCase |    128 | No     | No     | Yes    | No           | [A-z][0-9]         | No          |
-| Method name               | PascalCase |    128 | Yes    | No     | No     | No           | [A-z][0-9]         | No          |
-| Method arguments          | camelCase  |    128 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
-| Local variables           | camelCase  |     50 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
-| Constants name            | PascalCase |     50 | No     | No     | No     | No           | [A-z][0-9]         | No          |
-| Field name Public         | PascalCase |     50 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
-| Field name Private        | _camelCase |     50 | Yes    | No     | No     | Yes          | _[A-z][0-9]        | Yes         |
-| Properties name           | PascalCase |     50 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
-| Delegate name             | PascalCase |    128 | No     | No     | Yes    | Yes          | [A-z]              | No          |
-| Enum type name            | PascalCase |    128 | Yes    | No     | No     | No           | [A-z]              | No          |
+| Namespace name            | PascalCase |     32 | Yes    | Yes    | No     | No           | [A-z][0-9]         | No          |
+| Class name                | PascalCase |     32 | No     | No     | Yes    | No           | [A-z][0-9]         | No          |
+| Constructor name          | PascalCase |     32 | No     | No     | Yes    | No           | [A-z][0-9]         | No          |
+| Method name               | PascalCase |     32 | Yes    | No     | No     | No           | [A-z][0-9]         | No          |
+| Method arguments          | camelCase  |     32 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
+| Local variables           | camelCase  |     20 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
+| Constants name            | PascalCase |     20 | No     | No     | No     | No           | [A-z][0-9]         | No          |
+| Field name Public         | PascalCase |     20 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
+| Field name Private        | _camelCase |     20 | Yes    | No     | No     | Yes          | _[A-z][0-9]        | Yes         |
+| Properties name           | PascalCase |     20 | Yes    | No     | No     | Yes          | [A-z][0-9]         | No          |
+| Delegate name             | PascalCase |     32 | No     | No     | Yes    | Yes          | [A-z]              | No          |
+| Enum type name            | PascalCase |     32 | Yes    | No     | No     | No           | E[A-z]             | No          |
 
 #### 1. Use PascalCasing para nomes de classes e métodos:
 
@@ -325,7 +325,7 @@ public enum Direction
 
 ***Por que: pode criar confusão ao confiar em tipos e valores reais.*** 
 
-#### 19. Não use um sufixo "Enum" em nomes de tipos de enum, use o sufixo 'E': 
+#### 19. Não use um sufixo "Enum" em nomes de tipos de enum, use o prefixo 'E': 
 
 ```csharp     
 // Don't
@@ -442,24 +442,6 @@ public static bool IsNullOrEmpty(string value) {
 ```
 
 ***Por que: consistente com o .NET Framework da Microsoft e fácil de ler.*** 
-
-#### 27*. Use argumentos nomeados em chamadas de método: 
-Ao chamar um método, os argumentos são passados ​​com o nome do parâmetro seguido por dois pontos e um valor. 
-
-```csharp
-// Method
-public void DoSomething(string foo, int bar) 
-{
-...
-}
-
-// Avoid
-DoSomething("someString", 1);
-// Correct
-DoSomething(foo: "someString", bar: 1);
-```
-
-***Por que: consistente com o .NET Framework da Microsoft e fácil de ler. Em Argumentos Nomeados, não precisamos passar os parâmetros na ordem definida na definição do método, portanto, podemos passar os argumentos em qualquer ordem na chamada do método.*** 
 
 ## Official Reference
 
