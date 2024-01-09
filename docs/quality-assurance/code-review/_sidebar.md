@@ -1,4 +1,6 @@
 * [Home](/)
 * [Garantia de Qualidade](quality-assurance/README.md)
+* * [Clean Code](quality-assurance/clean-code/README.md)
 * * [Revisão de Código C#](quality-assurance/code-review/README.md)
 * * * [Padrão de nomenclatura](quality-assurance/code-review/csharp_naming_convention.md)
+* * * [Boas práticas](quality-assurance/code-review/csharp_best_practices.md)
