@@ -2,3 +2,4 @@
 * [Garantia de Qualidade](quality-assurance/README.md)
 * * [Clean Code](quality-assurance/clean-code/README.md)
 * * [Revisão de Código C#](quality-assurance/code-review/README.md)
+* [Ativos de Softwares](software-assets/README.md)
