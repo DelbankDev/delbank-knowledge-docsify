@@ -120,7 +120,7 @@ public DateTime clientAppointment;
 public TimeSpan timeLeft;    
 // Avoid
 public DateTime client_Appointment;
-public TimeSpan time_Left; 
+public TimeSpan time_Left;
 // Exception (Class field)
 // Always try to use camelCase terminology prefix with underscore
 private DateTime _registrationDate;
@@ -135,14 +135,14 @@ private DateTime _registrationDate;
 string firstName;
 int lastIndex;
 bool isSaved;
-string commaSeparatedNames = String.Join(", ", names);
-int index = Int32.Parse(input);
+string commaSeparatedNames = string.Join(", ", names);
+int index = int.Parse(input);
 // Avoid
 String firstName;
 Int32 lastIndex;
 Boolean isSaved;
-string commaSeparatedNames = string.Join(", ", names);
-int index = int.Parse(input);
+string commaSeparatedNames = String.Join(", ", names);
+int index = Int32.Parse(input);
 ```
 
 ***Por que: consistente com o .NET Framework da Microsoft e torna a leitura do código mais natural.*** 
