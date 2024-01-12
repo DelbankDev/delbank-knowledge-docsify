@@ -128,7 +128,7 @@ private DateTime _registrationDate;
 
 ***Porquê: consistente com o .NET Framework da Microsoft e torna o código mais natural de ler (sem 'calúnias'). Também evita o estresse do sublinhado (incapacidade de ver o sublinhado).*** 
 
-#### 9. Use nomes de tipos predefinidos (aliases C#) como `int`, `float`, `string` para declarações locais, de parâmetros e de membros. Use nomes do .NET Framework como `Int32`, `Single`, `String` ao acessar os membros estáticos do tipo como `Int32.TryParse` ou `String.Join`. 
+#### 9. Use nomes de tipos predefinidos (aliases C#) como `int`, `float`, `string` para declarações locais, de parâmetros e de membros e ao acessar os membros estáticos do tipo, como `int.TryParse` ou `string.Join`.
 
 ```csharp
 // Correct
