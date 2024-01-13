@@ -1,3 +1,17 @@
-* [Home](/)
-* [Garantia de Qualidade](quality-assurance/README.md)
-* [Ativos de Softwares](software-assets/README.md)
+- [Início](/#delbank-knowledge)
+
+- [Quem Somos](/quem-somos/)
+
+- [Desenvolvimento](/desenvolvimento/)
+
+- [Garantia de Qualidade](/garantia-qualidade/)
+
+- [Ativos de Softwares](/ativos-software/)
+
+- [Fornecedores](/fornecedores/)
+
+- [Integração](/integracao/)
+
+- [Clientes White Label](/white-label/)
+
+- [Histórico de Atualizações](/atualizacoes/)
