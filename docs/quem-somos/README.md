@@ -1,7 +1,7 @@
 # Quem Somos
 
 O Delbank é uma instituição financeira que oferece serviços bancários e financeiros por meio de sua plataforma de
-_Banking as a Service_ (**BaaS**), e seus canais principais canais são o Aplicativo e o Internet Banking. O público alvo
+_Banking as a Service_ (**BaaS**), e seus principais canais são o Aplicativo e o Internet Banking. O público alvo
 são empresas ou pessoas físicas com negócios, que desejam efetuar a abertura de contas transacionais e obter desfrutar
 de uma ampla variedade de produtos e serviços financeiros. [Saiba mais](https://delbank.com.br/)!
 
@@ -43,16 +43,16 @@ jovem. [Saiba mais](https://grupocastrolima.com.br/castro-lima/)!
 | Aline Medeiros    | Gerente de Operação e Backoffice                          |
 | Juliana Vilanova  | Secretária Executiva                                      |
 | Ayrton Hora       | Engenheiro de Software e Tech Lead                        |
-| Douglas Guilherme | Engenheiro de Q.A e Scrum Master                          |
-| Allaphy Lima      | Desenvolvedor Full Stack                                  |
+| Allaphy Lima      | Analista de Sistemas e Scrum Master                       |
+| Douglas Guilherme | Analista de Qualidade                                     |
 | Carlos Rogério    | Desenvolvedor Back-End                                    |
 | Diogo Dionisio    | Desenvolvedor Full Stack                                  |
 | Douglas Vinicius  | Desenvolvedor Mobile                                      |
 | Emerson Andrade   | Desenvolvedor Full Stack                                  |
-| Gabriel Melo      | Desenvolvedor Front-End                                   |
 | Guilherme Andrade | Desenvolvedor Full Stack                                  |
 | Matheus Vinicius  | Desenvolvedor Mobile                                      |
 | Wesley Alves      | Desenvolvedor Back-End                                    |
+| Gabriel Melo      | Estagiário                                                |
 | Eduardo Carvalho  | Estagiário                                                |
 
 ## Estruturas de Sistemas
@@ -61,11 +61,11 @@ Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacion
 
 | Sistemas           | Sobre                                                                                                                                                                                                                          |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ClickUp            | É uma ferramenta destinada ao gerenciamento de projetos e tarefas auxiliando o Time de Desenvolvimento na estruturação e organização de suas atividades.                                                                       |
-| Delbank Backoffice | É um sistema administrativo interno ao Delbank. Tem como objetivo a realizar a operacionabilidade do banco como um todo. Por meio dele, a direção e o operacional realiza diversas atividades de gerenciamento da instituição. |
-| Internet Banking   | É uma extensão do App, uma versão online do Delbank onde o cliente pode acessar sua conta, verificar saldo, limites, boletos, etc.                                                                                             |
+| ClickUp            | É uma ferramenta destinada ao gerenciamento de projetos e tarefas auxiliando o Time de Desenvolvimento na estruturação e organização de suas atividades.                                                                   |
+| Delbank Backoffice | É um sistema administrativo interno ao Delbank. Tem como objetivo realizar a operacionabilidade do banco como um todo. Por meio dele, a direção e o operacional realizam diversas atividades de gerenciamento da instituição.     |
+| Internet Banking   | É uma extensão do App, uma versão online do Delbank onde o cliente pode acessar sua conta, verificar saldo, limites, boletos, etc.                                                                                           |
 | SharePoint         | É uma plataforma colaborativa da Microsoft de sites e páginas, que facilita o compartilhamento, organização e gerenciamento de documentos. Atualmente utilizado como ambiente virtual pelo setor de T.I.                       |
-| Microsoft Teams    | É a plataforma unificada de comunicação e colaboração do Delbank. Possibilita entre equipes, agendamento de chamadas e compartilhamento de arquivos.                                                                           |
+| Microsoft Teams    | É a plataforma unificada de comunicação e colaboração do Delbank. Possibilita agendamento de chamadas e compartilhamento de arquivos entre as equipes.                                                                   |
 
 ### Metodologia de gestão utilizada no Delbank
 
@@ -114,7 +114,7 @@ Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacion
 - SQL Server
 - SonarLint
 
-## Alguns de Nossos Produtos
+## Alguns de nossos Produtos
 
 - Aplicativo Mobile
 - Contas Bancárias

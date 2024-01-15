@@ -17,7 +17,7 @@ Segundo, uma vez que sabemos que nosso código resolve o problema, devemos verif
 programa é executado utilizando uma quantidade razoável de recursos em termos de tempo e espaço? Ele pode funcionar mais
 rápido e com menos espaço?
 
-Para expandir a eficiência, aqui estão dois exemplos de uma função que calcula a soma de todos os números em uma matriz.
+Para expandir a eficiência, aqui estão dois exemplos de uma função que calcula a soma de todos os números em um vetor.
 
 ```javascript
 // Inefficient Example
@@ -35,14 +35,13 @@ variável `sum`. Esta é uma solução válida, mas não é muito eficiente porq
 independentemente do seu comprimento.
 
 ```javascript
-// Inefficient Example
 // Efficient example
 function sumArrayEfficient(array) {
     return array.reduce((a, b) => a + b, 0);
 }
 ```
 
-Esta implementação da função `sumArrayEfficient` usa o método `reduce` para somar os elementos do array. O reducemétodo
+Esta implementação da função `sumArrayEfficient` usa o método `reduce` para somar os elementos do array. O método `reduce`
 aplica uma função a cada elemento do array e acumula o resultado. Neste caso, a função simplesmente adiciona cada
 elemento ao acumulador, que começa em 0.
 

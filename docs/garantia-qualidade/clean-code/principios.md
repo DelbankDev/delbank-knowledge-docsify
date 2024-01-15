@@ -32,7 +32,7 @@ println(7 * 10);
 
 Supondo que alguém deseje exibir a tabuada até sete vezes cem, isso adicionaria mais 90 linhas ao programa!
 
-É aqui que o princípio DRY entra em cena. Porque repetir o mesmo código 10 vezes quando você pode escrevê-lo apenas uma
+É aqui que o princípio DRY entra em cena. Por que repetir o mesmo código 10 vezes quando você pode escrevê-lo apenas uma
 vez? O código acima pode ser reescrito da seguinte maneira:
 
 ```php

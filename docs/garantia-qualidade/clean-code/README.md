@@ -18,7 +18,7 @@ pode entendê-lo rapidamente. Isso reduz o tempo necessário para compreender a 
 desenvolvimento e depuração mais ágeis.
 
 **Manutenção**: o código é lido com mais frequência do que escrito. Quando você escreve um código limpo, fica mais fácil
-manter e estender o aplicativo ao longo do tempo. Isto é crucial no ciclo de vida do desenvolvimento de software, onde
+manter e estender a aplicação ao longo do tempo. Isto é crucial no ciclo de vida do desenvolvimento de software, onde
 os projetos frequentemente crescem e evoluem.
 
 **Colaboração**: o código limpo incentiva a colaboração. Quando seu código está limpo e bem organizado, outros membros
