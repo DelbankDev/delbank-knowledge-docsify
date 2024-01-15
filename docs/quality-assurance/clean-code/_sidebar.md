@@ -1,6 +1,0 @@
-* [Home](/)
-* [Garantia de Qualidade](quality-assurance/README.md)
-* * [Clean Code](quality-assurance/clean-code/README.md)
-* * * [Princípios](quality-assurance/clean-code/principles_clean_code.md)
-* * * [Boas Práticas](quality-assurance/clean-code/best_practices_clean_code.md)
-* * [Revisão de Código C#](quality-assurance/code-review/README.md)

@@ -1,0 +1,61 @@
+:root {
+    --delbank-black: #101011;
+    --delbank-green: #26d126;
+    --italic-color: #78c8aa;
+    --bold-color: #5ab4a0;
+    --theme-color: var(--delbank-green);
+}
+
+body, .sidebar, .anchor span, .sidebar ul li a {
+    color: white !important;
+}
+
+.sidebar ul li.active > a,
+.sidebar ul li p.active > a {
+    color: var(--theme-color) !important;
+}
+
+.markdown-section em {
+    color: var(--italic-color) !important;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+    color: #5ab4a0 !important;
+    font-weight: 600 !important;
+}
+
+table th {
+    color: white !important;
+    background: darkgreen !important;
+}
+
+table tr:nth-child(odd) td {
+    color: white !important;
+    background: dimgray !important;
+}
+
+table tr:nth-child(even) td {
+    color: white !important;
+    background: darkslategrey !important;
+}
+
+blockquote {
+    color: lightgray !important;
+}
+
+.github-corner svg {
+    color: lavenderblush !important;
+    fill: var(--theme-color) !important;
+}
+
+.app-name-link {
+    font-weight: bold;
+}
+
+section.cover.show {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black radial-gradient(210% 125% at 95% 10%, #075D07 5%, #0B3315 30%, #0D1B1D 50%, #0E1516 70%, #0D0D0E 95%);
+}
