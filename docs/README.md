@@ -19,5 +19,5 @@ não esqueça de atualizar o [changelog](/atualizacoes/) com uma breve descriç�
 Esta é uma documentação técnica, então o uso de jargões e estrangeirismos é esperado. No entanto, busque sempre escrever
 de forma clara e direta, evitando repetições e informações desnecessárias. Mantenha o mesmo estilo de escrita que adotar
 desde o início do documento, seja consistente com o uso de maiúsculas e pontuação, e tenha cuidado extra com erros
-ortográficos e de concordância. E por fim, mas não menos importante, priorize o uso da língua portuguesa, não só nos
-textos, mas também nos nomes de arquivos e pastas, visto que essa é a nossa língua oficial para comunicação.
+ortográficos e de concordância. Por fim, priorize o uso da língua portuguesa, não só nos textos, mas também nos nomes de
+arquivos e pastas, visto que essa é a nossa língua oficial para comunicação.
