@@ -460,7 +460,7 @@ public static bool IsNullOrEmpty(string value) {
 // Correct
 [Route("internal/api/v{version:apiVersion}/...")]
 
-// Wrong!
+// Avoid
 [Route("api/internal/v{version:apiVersion}/...")]
 [Route("api/v{version:apiVersion}/internal/...")]
 ```
