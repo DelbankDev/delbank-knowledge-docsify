@@ -454,6 +454,19 @@ public static bool IsNullOrEmpty(string value) {
 
 ***Por que: consistente com o .NET Framework da Microsoft e fácil de ler.***
 
+##### 27. Rotas internas devem seguir o padrão `internal/api/v{version}/...`:
+
+```csharp
+// Correct
+[Route("internal/api/v{version:apiVersion}/...")]
+
+// Wrong!
+[Route("api/internal/v{version:apiVersion}/...")]
+[Route("api/v{version:apiVersion}/internal/...")]
+```
+
+***Por que: padrão adotado pela instituição e facilita na utilização e organização de rotas internas das diversas aplicações.***
+
 ### Referências <!-- {docsify-ignore} -->
 
 1. [MSDN General Naming Conventions](http://msdn.microsoft.com/en-us/library/ms229045(v=vs.110).aspx)

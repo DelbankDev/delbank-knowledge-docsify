@@ -12,6 +12,8 @@
         - [Dart](/garantia-qualidade/code-review/dart.md)
         - [Java](/garantia-qualidade/code-review/java.md)
         - [JavaScript](/garantia-qualidade/code-review/javascript.md)
+    
+    - [Padrões Institucionais](/garantia-qualidade/padroes.md)
 -
 - [Ativos de Softwares](/ativos-software/)
 
