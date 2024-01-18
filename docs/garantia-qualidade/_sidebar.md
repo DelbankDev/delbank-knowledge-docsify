@@ -7,7 +7,7 @@
 - [Garantia de Qualidade](/garantia-qualidade/)
     - [Clean Code](/garantia-qualidade/clean-code/)
     - [Revisão de Código](/garantia-qualidade/code-review/)
-
+    - [Padrões Institucionais](/garantia-qualidade/padroes.md)
 - [Ativos de Softwares](/ativos-software/)
 
 - [Fornecedores](/fornecedores/)
