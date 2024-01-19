@@ -98,7 +98,48 @@ Lista de débitos técnicos a serem resolvidos futuramente. Inserir links do bac
 
 ## Lista de Incidentes (Troubleshooting)
 
-Lista de incidentes ou problemas, com suas respectivas soluções.
+<details class="troubleshooting">
+    <summary><b>Cash-outs externos pendentes de processamento</b></summary>
+    <div>
+
+> ### Descrição do Problema
+>
+> Transferências Pix feitas pelo **Delbank** para as quais o tempo de resposta do SPI é maior que 30 segundos. Pode ser
+> problema no próprio SPI ou na nossa rotina de atualização de status dos Pix efetuados. Geralmente é o segundo caso.
+>
+> Nesse segundo caso, o que ocorre é que após a _rotina de sondagem_ obter no SPI o status de um Pix efetuado, ela envia
+> essa informação para o **PixWorker** (projeto .NET à parte) via fila, para que a atualização seja feita no banco de
+> dados. Só que, por algum motivo ainda não diagnosticado (pois não há logs suficientes no PixWorker), os consumidores
+> do RabbitMQ instanciados por esse projeto "morrem" e as requisições de atualização de status ficam presas na fila
+_pix.update-payment-status-entity.in_. Esse Worker também gerencia os consumidores da fila
+_pix.update-initiation-pix-entity.in_.
+>
+> ### Impacto (Quem é afetado?)
+>
+> Afeta clientes que NÃO usam webhook, que no momento são minoria. Logo, não é extremamente grave.
+>
+> Quando esse erro ocorre, também é esperado que todas as consultas de chaves fiquem com 100% de não utilização, pois
+> como os status dos Pix efetuados ainda não terão sido atualizados no banco de dados, do ponto de vista da aplicação,
+> aquelas consultas de chaves não foram convertidas em pagamentos. Quando a resolução for aplicada, essas porcentagens
+> devem se normalizar.
+>
+> ### Pré-requisitos para a solução
+>
+> 1. Acesso ao ECS (Elastic Container Service) de produção na AWS;
+> 2. Permissão para forçar um novo deploy de um serviço, mais especificamente do PixWorker.
+>
+> ### Passo-a-passo da solução
+>
+> A solução efetiva seria diagnosticar e corrigir o problema no PixWorker. A solução manual e paliativa é:
+>
+> 1. Acessar a instância do PixWorker no ECS (Elastic Container Service), na AWS;
+> 2. Forçar um novo deploy do PixWorker.
+>
+> Como há somente uma instância do PixWorker em produção, o deploy forçado fará com que a instância atual seja
+> reiniciada e os consumidores do RabbitMQ sejam recriados. Dessa forma, as requisições presas na fila serão
+> consumidas e os status dos Pix efetuados serão atualizados de imediato no banco de dados.
+</div>
+</details>
 
 ## Anexos
 

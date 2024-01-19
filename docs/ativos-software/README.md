@@ -98,7 +98,36 @@ Lista de débitos técnicos a serem resolvidos futuramente. Inserir links do bac
 
 ## Lista de Incidentes (Troubleshooting)
 
-Lista de incidentes ou problemas, com suas respectivas soluções.
+Lista de incidentes ou problemas, com suas respectivas soluções. Exemplo:
+
+<details class="troubleshooting">
+    <summary><b>Problema ABC</b></summary>
+    <div>
+
+> ### Descrição do Problema
+>
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies ultricies, nunc nisl
+> commodo
+> nisl, eget aliquam nisl nunc eget nisl. Donec auctor, nisl eget ultricies ultricies, nunc nisl commodo nisl, eget
+> aliquam nisl nunc eget nisl.
+>
+> ### Impacto (Quem é afetado?)
+>
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies ultricies, nunc nisl.
+>
+>
+> ### Pré-requisitos para a solução
+>
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies ultricies, nunc nisl
+> commodo
+>
+> ### Passo-a-passo da solução
+>
+> 1. Lorem ipsum.
+> 2. Dolor sit amet.
+> 3. Consectetur adipiscing elit.
+</div>
+</details>
 
 ## Anexos
 
