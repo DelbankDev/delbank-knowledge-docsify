@@ -107,7 +107,10 @@ Lista de débitos técnicos a serem resolvidos futuramente. Inserir links do bac
 > Transferências Pix feitas pelo **Delbank** para as quais o tempo de resposta do SPI é maior que 30 segundos. Pode ser
 > problema no próprio SPI ou na nossa rotina de atualização de status dos Pix efetuados. Geralmente é o segundo caso.
 >
-> Nesse segundo caso, o que ocorre é que após a _rotina de sondagem_ obter no SPI o status de um Pix efetuado, ela envia
+> No primeiro caso, deve-se abrir um chamado para a JDPI (`jdpi@jdconsultores.com.br`) ou usar algum contato direto para
+> tentar compreender e resolver a situação junto ao fornecedor.
+>
+> No segundo caso, o que ocorre é que após a _rotina de sondagem_ obter no SPI o status de um Pix efetuado, ela envia
 > essa informação para o **PixWorker** (projeto .NET à parte) via fila, para que a atualização seja feita no banco de
 > dados. Só que, por algum motivo ainda não diagnosticado (pois não há logs suficientes no PixWorker), os consumidores
 > do RabbitMQ instanciados por esse projeto "morrem" e as requisições de atualização de status ficam presas na fila
