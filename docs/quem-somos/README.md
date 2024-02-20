@@ -52,7 +52,7 @@ jovem. [Saiba mais](https://grupocastrolima.com.br/castro-lima/)!
 | Guilherme Andrade | Desenvolvedor Full Stack                                  |
 | Matheus Vinicius  | Desenvolvedor Mobile                                      |
 | Wesley Alves      | Desenvolvedor Back-End                                    |
-| Gabriel Melo      | Estagiário                                                |
+| George Silva      | Desenvolvedor Back-End                                    |
 | Eduardo Carvalho  | Estagiário                                                |
 
 ## Estruturas de Sistemas
