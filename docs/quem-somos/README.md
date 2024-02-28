@@ -45,6 +45,7 @@ jovem. [Saiba mais](https://grupocastrolima.com.br/castro-lima/)!
 | Ayrton Hora       | Engenheiro de Software e Tech Lead                        |
 | Allaphy Lima      | Analista de Sistemas e Scrum Master                       |
 | Douglas Guilherme | Analista de Qualidade                                     |
+| Eduardo Carvalho  | Analista de Qualidade (Estagiário)                        |
 | Carlos Rogério    | Desenvolvedor Back-End                                    |
 | Diogo Dionisio    | Desenvolvedor Full Stack                                  |
 | Douglas Vinicius  | Desenvolvedor Mobile                                      |
@@ -52,8 +53,7 @@ jovem. [Saiba mais](https://grupocastrolima.com.br/castro-lima/)!
 | Guilherme Andrade | Desenvolvedor Full Stack                                  |
 | Matheus Vinicius  | Desenvolvedor Mobile                                      |
 | Wesley Alves      | Desenvolvedor Back-End                                    |
-| Gabriel Melo      | Estagiário                                                |
-| Eduardo Carvalho  | Estagiário                                                |
+| George Silva      | Desenvolvedor Back-End                                    |
 
 ## Estruturas de Sistemas
 
