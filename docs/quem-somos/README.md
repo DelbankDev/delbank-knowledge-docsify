@@ -33,39 +33,41 @@ jovem. [Saiba mais](https://grupocastrolima.com.br/castro-lima/)!
 
 | Colaborador       | Cargo                                                     |
 |:------------------|:----------------------------------------------------------|
+| Andréa Prado      | Sócia-Diretora                                            |
+| Thiago Prado      | Sócio-Diretor                                             |
 | Nilton Carlos     | Diretor Executivo                                         |
-| Luciano Maynard   | Diretor de Negócios e Produtos                            |
 | Alexandre Andrade | Diretor de Tecnologia                                     |
-| João Gabriel      | Superintendente de Negócios e Produtos                    |
+| Luciano Maynard   | Diretor de Negócios e Produtos                            |
+| João Gabriel      | Diretor de Negócios e Produtos de Tecnologia              |
 | Felipe Bulhões    | Coordenador de Compliance e Data Protection Officer (DPO) |
 | Alexandre Dielle  | Coordenador de Tecnologia e Product Owner                 |
 | Marconi Oliveira  | Gerente de Infraestrutura                                 |
-| Aline Medeiros    | Gerente de Operação e Backoffice                          |
+| Aline Medeiros    | Gerente de Operações e Backoffice                         |
 | Juliana Vilanova  | Secretária Executiva                                      |
-| Ayrton Hora       | Engenheiro de Software e Tech Lead                        |
-| Allaphy Lima      | Analista de Sistemas e Scrum Master                       |
+| Allaphy Lima      | Engenheiro de Software, Tech Lead e Scrum Master          |
+| Ayrton Hora       | Engenheiro de Software                                    |
 | Douglas Guilherme | Analista de Qualidade                                     |
+| Eduardo Carvalho  | Analista de Qualidade                                     |
 | Carlos Rogério    | Desenvolvedor Back-End                                    |
 | Diogo Dionisio    | Desenvolvedor Full Stack                                  |
 | Douglas Vinicius  | Desenvolvedor Mobile                                      |
 | Emerson Andrade   | Desenvolvedor Full Stack                                  |
+| George Guilherme  | Desenvolvedor Back-End                                    |
 | Guilherme Andrade | Desenvolvedor Full Stack                                  |
 | Matheus Vinicius  | Desenvolvedor Mobile                                      |
 | Wesley Alves      | Desenvolvedor Back-End                                    |
-| Gabriel Melo      | Estagiário                                                |
-| Eduardo Carvalho  | Estagiário                                                |
 
 ## Estruturas de Sistemas
 
 Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacional das equipes.
 
-| Sistemas           | Sobre                                                                                                                                                                                                                          |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ClickUp            | É uma ferramenta destinada ao gerenciamento de projetos e tarefas auxiliando o Time de Desenvolvimento na estruturação e organização de suas atividades.                                                                   |
-| Delbank Backoffice | É um sistema administrativo interno ao Delbank. Tem como objetivo realizar a operacionabilidade do banco como um todo. Por meio dele, a direção e o operacional realizam diversas atividades de gerenciamento da instituição.     |
-| Internet Banking   | É uma extensão do App, uma versão online do Delbank onde o cliente pode acessar sua conta, verificar saldo, limites, boletos, etc.                                                                                           |
-| SharePoint         | É uma plataforma colaborativa da Microsoft de sites e páginas, que facilita o compartilhamento, organização e gerenciamento de documentos. Atualmente utilizado como ambiente virtual pelo setor de T.I.                       |
-| Microsoft Teams    | É a plataforma unificada de comunicação e colaboração do Delbank. Possibilita agendamento de chamadas e compartilhamento de arquivos entre as equipes.                                                                   |
+| Sistemas           | Sobre                                                                                                                                                                                                                         |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ClickUp            | É uma ferramenta destinada ao gerenciamento de projetos e tarefas auxiliando o Time de Desenvolvimento na estruturação e organização de suas atividades.                                                                      |
+| Delbank Backoffice | É um sistema administrativo interno ao Delbank. Tem como objetivo realizar a operacionabilidade do banco como um todo. Por meio dele, a direção e o operacional realizam diversas atividades de gerenciamento da instituição. |
+| Internet Banking   | É uma extensão do App, uma versão online do Delbank onde o cliente pode acessar sua conta, verificar saldo, limites, boletos, etc.                                                                                            |
+| Microsoft Teams    | É a plataforma unificada de comunicação e colaboração do Delbank. Possibilita agendamento de chamadas e compartilhamento de arquivos entre as equipes.                                                                        |
+| Delbank Knowledge  | É um repositório de conhecimento do Delbank, onde são armazenadas informações relevantes para o desenvolvimento das atividades da equipe de tecnologia.                                                                       |
 
 ### Metodologia de gestão utilizada no Delbank
 
@@ -103,6 +105,7 @@ Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacion
 
 ### Outras Tecnologias
 
+- Amazon Web Services (AWS)
 - Apache Tomcat
 - Figma
 - Git
@@ -117,12 +120,11 @@ Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacion
 ## Alguns de nossos Produtos
 
 - Aplicativo Mobile
-- Contas Bancárias
 - Backoffice
+- Contas Bancárias
 - Cobranças (Pix, Boleto, Boleto Pix)
+- Empréstimo Consignado (_em breve_)
 - Internet Banking
-- Pix Direto
-- Pix Indireto
 - TED
 - Whitelabel
 
@@ -130,7 +132,7 @@ Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacion
 
 - Grupo Castro Lima
 - ServeLoja
-- ServeMei
+- ServeMEI
 - ServeDigital
 - Instituto Arca
 
@@ -143,4 +145,7 @@ Atualmente o Delbank trabalha com alguns sistemas para o gerenciamento operacion
 - Pix Us
 - Kendo
 - PicPag
-- Pagsmile 
+- Pagsmile
+- HKP Pay
+- Cash Pay
+- Golden Cat
