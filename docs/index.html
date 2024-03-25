@@ -22,9 +22,11 @@
             const catchphrases = [
                 "Tá pronto?!",
                 "Comé, comé?!",
+                "Cash-out ok?!",
+                "How many tokens?!",
                 "Num sabe, num sabe!",
                 "Documentação da NASA!",
-                "O conhecimento é o alimento da alma."
+                "Qualquer coisa é qualquer coisa!",
             ];
 
             const catchphrase = await waitForElm('#catchphrase');
@@ -67,7 +69,7 @@
         loadNavbar: false,
         mergeNavbar: false,
         maxLevel: 4,
-        subMaxLevel: 2,
+        subMaxLevel: 3,
         paths: "auto",
         plugins: [
             function (hook, vm) {
