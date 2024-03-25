@@ -52,7 +52,7 @@ jovem. [Saiba mais](https://grupocastrolima.com.br/castro-lima/)!
 | Diogo Dionisio    | Desenvolvedor Full Stack                                  |
 | Douglas Vinicius  | Desenvolvedor Mobile                                      |
 | Emerson Andrade   | Desenvolvedor Full Stack                                  |
-| George Guilherme  | Desenvolvedor Back-End                                    |
+| George Silva      | Desenvolvedor Back-End                                    |
 | Guilherme Andrade | Desenvolvedor Full Stack                                  |
 | Matheus Vinicius  | Desenvolvedor Mobile                                      |
 | Wesley Alves      | Desenvolvedor Back-End                                    |
