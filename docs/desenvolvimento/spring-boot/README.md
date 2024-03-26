@@ -33,17 +33,19 @@ fornecendo modelos de projeto prontos para uso e configurações personalizávei
 
 Além dessas características, podemos citar também:
 
-**Facilidade de Configuração:** Quando há a necessidade de alguma configuração adicional, o Spring Boot a simplifica por
+- **Facilidade de Configuração:** Quando há a necessidade de alguma configuração adicional, o Spring Boot a simplifica
+  por
 meio de anotações e autoconfiguração. Ele detecta automaticamente a maioria das configurações necessárias com base nas
 dependências incluídas no projeto.
 
-**Ecossistema Rico:** O Spring Boot faz parte do ecossistema Spring, que oferece uma ampla gama de módulos e ferramentas
+- **Ecossistema Rico:** O Spring Boot faz parte do ecossistema Spring, que oferece uma ampla gama de módulos e
+  ferramentas
 para diversas necessidades de desenvolvimento, como web, dados, segurança, integração e muito mais.
 
-**Versatilidade:** O Spring Boot é agnóstico em relação à camada de apresentação, permitindo que você desenvolva
+- **Versatilidade:** O Spring Boot é agnóstico em relação à camada de apresentação, permitindo que você desenvolva
 aplicações web, RESTful, workers, ou até mesmo batch e integrações.
 
-**Comunidade Ativa:** Assim como outras tecnologias populares, o Spring Boot possui uma comunidade ativa de
+- **Comunidade Ativa:** Assim como outras tecnologias populares, o Spring Boot possui uma comunidade ativa de
 desenvolvedores, o que significa que há ampla documentação, suporte e recursos disponíveis online.
 
 Em resumo, o Spring Boot é uma escolha popular para o desenvolvimento de aplicações Java devido à sua abordagem de
