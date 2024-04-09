@@ -15,6 +15,8 @@
 
 - [Integração](/integracao/)
 
+- [Plantão](/plantao/)
+
 - [Clientes White Label](/white-label/)
 
 - [Histórico de Atualizações](/atualizacoes/)

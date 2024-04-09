@@ -12,6 +12,8 @@
 
 - [Integração](/integracao/)
 
+- [Plantão](/plantao/)
+
 - [Clientes White Label](/white-label/)
     - [AstonBank](/white-label/aston-bank/)
 
